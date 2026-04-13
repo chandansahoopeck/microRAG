@@ -1,14 +1,16 @@
 import json
 from sentence_transformers import SentenceTransformer
 # Recommended to update this import eventually!
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
+#from langchain_community.llms import Ollama
 from core_dsa import MiniVectorStore
 
 class RAGPipeline:
     def __init__(self):
         self.embedder = SentenceTransformer('./local-all-MiniLM-L6-v2')
         self.vector_store = MiniVectorStore()
-        self.llm = Ollama(model='llama3', temperature=0.0, format="json")
+        #self.llm = Ollama(model='llama3', temperature=0.0, format="json")
+        self.llm = OllamaLLM(model='llama3', temperature=0.0, format="json")
 
     def ingest_txt(self, text: str):
         chunks = [chunk.strip() for chunk in text.split('\n\n') if len(chunk.strip()) > 50]
