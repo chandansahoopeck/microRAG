@@ -1,0 +1,19 @@
+Claim 201: Policyholder submitted a routine auto insurance claim for a cracked windshield. The repair cost is $150, and a photo of the damage from a certified mechanic is attached. This falls under standard automated approval.
+
+Claim 202: User is filing a travel insurance claim for $15,000 due to a canceled trip. The cancellation reason provided is "changed my mind." No medical or emergency documentation is provided. This violates policy terms and should be flagged for Fraud investigation.
+
+Claim 203: Urgent homeowner claim regarding a severe pipe burst. The house is currently flooded, and the family is displaced. The estimated immediate damage is $25,000. This requires Priority routing to an emergency response adjuster.
+
+Claim 204: Medical claim for a routine bi-annual dental cleaning and x-rays. The total billed amount is $200 from an in-network provider. This matches standard billing codes and should be categorized as Standard.
+
+Claim 205: Policyholder is claiming the loss of three brand-new MacBook Pros and two Rolex watches during a subway ride. Total claim value is $45,000. The user cannot provide purchase receipts, serial numbers, or a police report. Flag immediately as Fraud.
+
+Claim 206: Commercial business insurance claim. A restaurant had a grease fire in the kitchen, resulting in closure. Smoke damage is extensive. Fire department reports are attached. This is a Priority claim due to business interruption clauses.
+
+Claim 207: Customer is disputing their monthly premium charge, stating they were billed $300 instead of their agreed-upon $150. They are requesting a refund for the overcharge. This is a Billing issue, not a damage claim, but should be handled as Standard.
+
+Claim 208: Auto collision claim. The policyholder rear-ended another vehicle at a stoplight. Both drivers are safe, but the front bumper requires $1,200 in repairs. Police report and photos are attached and match the description. Route to Standard processing.
+
+Claim 209: Multiple identical claims submitted within a 3-day period for a lost iPhone 15. The policyholder keeps changing the date of the loss on each subsequent form. Flag as Fraud due to duplicate/inconsistent submissions.
+
+Claim 210: Life insurance policy inquiry. The beneficiary is submitting a death certificate and requesting the payout of $500,000. The documentation is verified and notarized. Route to Priority for sensitive and immediate handling.

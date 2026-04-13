@@ -1,4 +1,46 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Models
+local-all-MiniLM-L6-v2/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
 .env
+*.env
+
+# IDEs
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets & keys
+*.pem
+*.key
+
+# AWS / cloud configs
+.aws/
+
+# Misc
+*.tmp
+*.swp
